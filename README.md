@@ -18,11 +18,13 @@ Filters are the processing units of the pipeline. A filter simply processes (and
 
 ### Data Sources
 Data sources provide the input data to the system either by 
+
 * actively pushing data down the pipeline or 
 * passively supplying data when requested.
 
 ### Data Sinks
 Data sinks gather data at the end of a pipeline either by
+
 * actively pulling data from the last filter or
 * passively responding when requested by the last filter.
 
